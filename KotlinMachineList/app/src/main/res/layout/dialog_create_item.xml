@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Új elem létrehozásánál, vagy meglévő módosításánál
+  2 db EditText a ShoppingItem adattagjainak.
+   Ide is szükséges a bővítés új adattag esetén-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Item name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="quantity"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDescript"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/etFault"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Fault" />
+
+</LinearLayout>
